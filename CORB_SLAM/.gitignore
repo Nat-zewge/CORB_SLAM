@@ -1,0 +1,9 @@
+corbslam_client/Examples/ROS/corbslam_client_rgbd
+corbslam_client/Examples/ROS/ORB_SLAM2/build/
+corbslam_client/Thirdparty/DBoW2/build/
+corbslam_client/Thirdparty/DBoW2/lib/
+corbslam_client/Thirdparty/g2o/build/
+corbslam_client/Thirdparty/g2o/config.h
+corbslam_client/Thirdparty/g2o/lib/
+corbslam_client/Vocabulary/ORBvoc.txt
+

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<arg name="vocabulary_path" default="$(find corbslam_client)/Vocabulary/ORBvoc.txt"/>
+<arg name="settings_path" default="$(find corbslam_client)/config/Asus.yaml"/>
+
+
+<node name="corbslam_rgbd_client" pkg="corbslam_client" type="corbslam_client_rgbd" args="$(arg vocabulary_path) $(arg settings_path)" output="screen"/>
+
+<node name="corbslam_rgbd_server" pkg="corbslam_server" type="corbslam_server" args="$(arg vocabulary_path) $(arg settings_path)" output="screen"/>
+
+
+
+
+
+<include file="$(find openni2_launch)/launch/openni2.launch"/>
+
+
+</launch>
+
