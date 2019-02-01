@@ -7,3 +7,4 @@ corbslam_client/Thirdparty/g2o/config.h
 corbslam_client/Thirdparty/g2o/lib/
 corbslam_client/Vocabulary/ORBvoc.txt
 ../../CMakeLists.txt
+.vscode
